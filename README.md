@@ -62,10 +62,10 @@ DELETE/comments/:commentid
 - Add a like for a post
 PUT/posts/:postid/likes
 - Remove a like for a post
-PATCH/posts/:postid/likes
+DELETE/posts/:postid/likes
 - Get all the posts of a user
-GET/users/posts
+GET/users/:userid/posts
 - Submit a search on posts
-POST/posts
+POST/posts/search
 
 [starter]: https://github.com/appacademy/practice-for-week-08-creating-api-docs
